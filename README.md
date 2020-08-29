@@ -5,7 +5,7 @@ This code simplifies （ junyanz /pytorch-CycleGAN-and-pix2pix ，https://github
 
 # dataset
 
-Please refer to the data set acquisition: junyanz /pytorch-CycleGAN-and-pix2pix， CycleGAN train/test, Download a CycleGAN dataset 
+Please refer to the data set acquisition: junyanz /pytorch-CycleGAN-and-pix2pix， CycleGAN train/test, Download a CycleGAN dataset (Download a pix2pix dataset)
 
 Data set structure:（reference horse2zebra ）
 
