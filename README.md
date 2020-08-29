@@ -10,11 +10,11 @@ Please refer to the data set acquisition: junyanz /pytorch-CycleGAN-and-pix2pix�
 Data set structure:（reference horse2zebra ）
 
 ├── datasets                   
-|   ├── <dataset_name>  # i.e. horse2zebra       
-|   |   ├── trainA             
-|   |   ├── trainB             
-|   |   ├── testA         
-|   |   ├── testB            
+|       ├── <dataset_name>      # i.e. horse2zebra       
+|       |       ├── trainA             
+|       |       ├── trainB             
+|       |       ├── testA         
+|       |       ├── testB            
              
 
 # cycleGAN:
