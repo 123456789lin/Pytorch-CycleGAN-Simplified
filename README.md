@@ -28,17 +28,20 @@ test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cycle
 Data can be paired or unpaired
 
 eg:
-
+```
 python train.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --model cycle_gan
-
+```
+```
 python test.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --model cycle_gan
+```
 
 # pix2pix:
-
+```
 train:python train.py --dataroot ./datasets/dataset_name --name pix2pix_dataset_name --model pix2pix
-
+```
+```
 test:python test.py --dataroot ./datasets/dataset_name --name pix2pix_dataset_name --model pix2pix
-
+```
 Data must be paired
 
 # Acknowledgments
