@@ -19,11 +19,12 @@ Data set structure:（reference horse2zebra ）
              
 
 # cycleGAN:
-
+```
 train:python train.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
-
+```
+```
 test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
-
+```
 Data can be paired or unpaired
 
 eg:
