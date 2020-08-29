@@ -40,4 +40,6 @@ test:python test.py --dataroot ./datasets/dataset_name --name pix2pix_dataset_na
 
 Data must be paired
 
+# Acknowledgments
+Basically, the code is pytorch-CycleGAN-and-pix2pix to remove some function implementations. Credit to CycleGAN, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, the authors of Alexei A.
 
