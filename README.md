@@ -7,7 +7,7 @@ This code simplifies （ junyanz /pytorch-CycleGAN-and-pix2pix ，https://github
 
 Please refer to the data set acquisition: junyanz /pytorch-CycleGAN-and-pix2pix， CycleGAN train/test, Download a CycleGAN dataset (Download a pix2pix dataset)
 
-Data set structure:（reference horse2zebra ）
+## Data set structure:（reference horse2zebra ）
 
 
 ├── datasets                   
@@ -20,10 +20,10 @@ Data set structure:（reference horse2zebra ）
 
 # cycleGAN:
 ```
-train:python train.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
+## train:python train.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
 ```
 ```
-test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
+## test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
 ```
 Data can be paired or unpaired
 
