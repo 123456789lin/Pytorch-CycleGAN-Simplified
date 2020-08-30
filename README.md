@@ -20,20 +20,19 @@ Please refer to the data set acquisition: junyanz /pytorch-CycleGAN-and-pix2pixï
 
 # cycleGAN:
 ```
-## train:python train.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
+train:python train.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
 ```
 ```
-## test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
+test:python test.py --dataroot ./datasets/dataset_name --name dataset_name_cyclegan --model cycle_gan
 ```
 Data can be paired or unpaired
 
 eg:
-```
+
 python train.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --model cycle_gan
-```
-```
+
 python test.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --model cycle_gan
-```
+
 
 # pix2pix:
 ```
